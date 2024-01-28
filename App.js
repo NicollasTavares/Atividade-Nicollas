@@ -1,3 +1,5 @@
+// Nome da atividade:atv01
+
 import React, { useState } from 'react';
 import { StatusBar } from 'react-native';
 import { StyleSheet, Text, View, Image, TextInput, Button, TouchableOpacity, Alert } from 'react-native';
@@ -10,7 +12,7 @@ const [hidePass, setHidePass] = useState(true)
 
   return (
     <View style={styles.container}>
-      <Image style={{ margin: 20, }} source={logo}></Image>
+      <Image style={{ margin: 50}} source={logo}></Image>
       
       <Text style={styles.legendas1}>Nome/Usuario</Text>
 
